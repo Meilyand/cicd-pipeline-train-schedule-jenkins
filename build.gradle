@@ -34,7 +34,6 @@ zip.dependsOn npm_build
 npm_build.dependsOn npm_test
 npm_test.dependsOn npmInstall
 
-npm_build.dependsOn npm_start
 npm_start.dependsOn npmInstall
 
 npm_build.dependsOn npmInstall
